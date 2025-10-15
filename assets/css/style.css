@@ -81,10 +81,7 @@ ul {
 .card {
     width: 20%;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,7 +97,7 @@ ul {
 .newyork .btn {
     background-color: #2774A6;
     position: relative;
-    top: 75px;
+    top: 110px;
 }
 
 .tokyo .btn {
@@ -110,10 +107,10 @@ ul {
 .paris .btn {
     background-color: #6C3483;
     position: relative;
-    top: 20px;
+    top: 60px;
 }
 
-.card h2, .card p {
+.card-content {
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -122,6 +119,8 @@ ul {
     text-align: center;
     margin-bottom: 5%;
 }
+
+
 
 
 
